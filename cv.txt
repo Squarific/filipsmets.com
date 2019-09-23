@@ -1,0 +1,298 @@
+EUnited we code
+
+Things I stand for:
+	Future
+	Education?
+	Diversity
+	SCIENCE
+
+Check the drive too
+	
+	
+SPLIT UP Projects and workshops
+
+Google hashcode
+Vlaamse wiskunde olympiade
+Vlaamse stem olympiade -> Finale (5de middelbaar)
+
+Marvel Fan
+Other nice things?
+
+
+
+Year 1
+===================
+Calculus
+Computer Graphics
+Computersystems and -architecture
+Discrete Mathematics
+Data abstraction and structures
+Introduction to programming
+Project Software Engineering
+Languages and Machines
+ 
+Year 2
+====================
+Algorithms and Complexity
+Computer networks
+Elementary Statistics
+Physics
+Advanced Programming
+Introduction to databases
+Linear algebra
+Machines and Computability
+Numerical Analysis
+Programming project databases
+Operating Systems
+ 
+Year 3
+====================
+
+Artificial intelligence
+Compilers*
+Data structures and graph algorithms
+Distributed systems
+World View and Science
+Software engineering
+Telecommunication systems*
+Scientific programming*
+
+*Skipped
+
+
+	
+Focus:
+	I do TECH
+	I do TEACHING
+	I do FULLSTACK
+	I do more than just webdev
+	I do a lot of languages
+
+Teamwork makes the dream work
+
+
+EXTRA:
+	Chronological overview
+	PRINT THIS PORTFOLIO
+	SHOW NO DETAILS
+	SEARCH BY TECHNOLOGY, TYPE, ...
+
+
+District three which category?
+
+
+Autorijbewijs
+BTW Nummer
+Rekeningnummer
+Post address
+Social medias
+
+
+Hebt gij nog certificaten?
+
+
+Technologieen
+
+	HTML5/CSS3
+	Javascript
+	Typescript
+
+	Jquery
+	Vue.js
+	Angular
+	React
+	WebPack
+	Ajax
+	Meteor
+	
+	NodeJS
+	
+	Wordpress
+	PHP
+	
+	JSON
+	XML
+		
+	Python
+	C#
+	LINQ
+	.NET
+	Unity
+	
+	C++
+	C (Arduino)
+	Assembley
+	Logisim
+	CLI
+	BASH
+	VB
+	
+	Raspberry pi
+
+	Desktop applications
+	Mobile applications
+	Web applications
+	
+	Memory management
+	Defensive programming
+	
+	Git
+	API
+	REST
+	Async
+	OOP
+	MVC
+	
+	RegEx
+	
+	Scrum
+	Kanabn
+	Agile
+	SOLID
+	RAII
+	Binding/closures/assertions
+	
+	Unit testing
+	Integration testing
+	UX/UI Design
+	
+	MYSQL
+	Backups
+	NoSQL
+	Mongodb
+	
+	Server management
+
+	Game developments
+
+	ICT
+	Windows servers
+	
+	Machine learning
+	Tensorflow.js
+	Neural Networks
+	
+	Microsoft Word/Excel
+
+	
+	Workshops
+
+	Gimp
+	Blender
+	
+	Google drive
+	Google docs/sheets/slides
+	
+	Blockchain
+
+Kindvriendelijke (training) technologien
+	Scratch/Blockly/mBot
+	MIT App Inventor
+	
+Maker technologien
+	Cura
+	3D Printing
+	Lasercutting
+	C (Arduino)
+	
+	
+	
+	
+Zelf georaniseerde evenementen:
+	Coolest Projects (2016, 2017, 2018, 2019)
+	Coderdojo Lier (2014?-2019)
+	Coderdojo Zandhoven (2017-2019)
+	
+
+	
+	
+Projects I have worked on:
+	Smarthome
+		This was an assignment for the University of Antwerp.
+		Using React in the front-end and Django in the back we had to make a system that could poll IOT devices and present the user with a clean interface to access the data.
+		- HTML5/CSS3/Javascript, React, Python, UX/UI Design, Project management
+
+	Nowasteland, iDrops, Maart 2017, April 2017
+		I gave workshops to youngsters that wanted to create apps to minimize foodwaste in our society.
+		There were four groups that were selected by a Jury and we helped them develop their vision into an App.
+		- AppInventor
+
+	Studio Digital, iDrops, September 2017
+
+	
+	!fLAB, Lille (FR), Juli 2017
+		Creating an interactive story about the closure of a nuclear power plant in north Wales.
+		- HTML5/CSS3/Javascript
+	
+		
+	
+	Kayzr, Juli 2016 - September 2016
+		Here I worked as a junior developer (student) on a platform that allows gamers to participate in online tournaments sponsored by big names like Proximus, Unibet, Jupiler, ...
+		- HTML5/CSS3/Javascript, Meteor, MongoDB (NoSQL)
+	
+	Atech, ICT/Microsoft
+	
+	Codefever
+		
+	Webdeveloper Training, Becode, Feb 2019 -June 2019
+		
+		
+Hobby projects:
+	Neural Cars, Oktober 2013 - Maart 2015
+		This project started out of pure interest into Neural Networks. The goal of the project was for agents to autonomously learn how to drive on the road.
+		Afterwards I wrote a paper for it as my graduating project for highschool.
+		Demo: https://www.filipsmets.com/neuralcar
+		HTML5/CSS3/Javascript, Neural Networks, RegEx
+		
+	Anondraw
+		My biggest pet project. Evolved from a small test and exploration of Node.js, this project grew into a full fledged community of artists. It contains a social network, messaging, walls, an infinite canvas that can be drawn on and a lot of other features.
+		Demo: https://www.anondraw.com
+		HTML5/CSS3/Javsacript, Nodejs, Websockets, File system management, Backups, Software design, MySQL, BASH, Python, Backup solutions, Network optimization, Performance optimization
+	
+Conferences:
+	Iminds, Brussel, 2016
+	ITF2017, Antwerpen, 2017
+	AI 4 Business Summit, Brussel, 2019
+	Dojocon Ierland (2019)
+	Dojocon Belgie (2017, 2018, 2019)
+
+
+Trainingen / hackatons:
+	Global Game Jam (2015, 2019)
+		https://globalgamejam.org/2019/games/dust-buster
+		In een klein team binnen de 48 uur een volledig spel maken.
+		Unity, C#
+	
+	Angular (via Cronos), Antwerpen 2015
+		Deze tweedaagse training was een crash course in Business oriented Angular.
+		HTML5/CSS3, Angular, Software Design
+	
+	Train The Trainer (Codefever), Gent, 2019
+		Gevulde dag met trainingen over het coachen van tech-skills.
+		
+	T2 Hackaton (2019)
+		Tijdens deze hackaton kregen we 24 uur om te werken rond een van de geselecteerde thema's zoals de toekomst van de medische wereld.
+		Ideation, Presentation, Prototyping
+		
+	Non violent communication ()
+
+
+Beurzen:
+	Supernova, Antwerpen, 2018	
+	Makerfaire Eindhoven, 2019
+	Makerfaire Gent, 2019
+	
+Vrijwilligerswerk:
+	Coderdojo Lier, 
+	Coderdojo Zandhoven
+	
+	Family Day Microsoft
+	
+Inspiration: https://pierre-antoine.delnatte.be/
+
+Fotos?
+
+
+	
+	
+	
