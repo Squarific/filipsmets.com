@@ -29,7 +29,6 @@ a:hover {
 	position:sticky;
 	position: -webkit-sticky;
 	background:lightgray;
-	height:50px;
 	box-sizing:border-box;
 	background:#585e62;
 	top:0;
@@ -37,23 +36,34 @@ a:hover {
 	display: flex;
     align-items: center;
     justify-content: center;
+	flex-direction:column;
 	
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	z-index:200;
 }
 
-.filterLabel {
+.basicFilters {
+	height:50px;
+}
+
+.topicFilters {
+	width:100%;
+}
+
+.filterSort {
 	display: inline-flex;
     align-items: center;
     justify-content: center;
 	
 	padding-left:1em;
 	padding-right:1em;
-
-	margin-left:1em;
-	margin-right:1em;
 	
 	height:100%;
+	cursor:pointer;
+}
+
+.filterSort:hover {
+	background:black;
 }
 
 .filterBox {
@@ -64,10 +74,12 @@ a:hover {
 	
 	margin-left:3em;
 	margin-right:1em;
+	
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .selected {
-	background:#1a83c9;
+	background:#65737d;
 }
 
 .header {
@@ -84,21 +96,23 @@ a:hover {
 	box-shadow:0 0 5px #3c3431;
 	padding: 2em;
     box-sizing: border-box;
+	background: linear-gradient(45deg, rgba(40,45,47,1) 0%, rgba(71,77,82,1) 100%);
 }
 
-h2 {
+h2, h3 {
     color:#f7f7f7;
+	display: inline-flex !important;
+    align-items: center;
+    justify-content: center;
+	padding:50px !important;
+	flex-direction:column;
+	text-align:center;
 }
 
-h3 {
-	margin-top:3.5em;
-}
-
-.project {
-	background: #0000001a;
-    padding: 1em;
-	margin:1em;
-	max-width:40em;
+.centered {
+	display:flex;
+	align-items:center;
+	justify-content:center;
 }
 
 .project h4 {
@@ -121,26 +135,21 @@ h3 {
 
 .menu {
 	display:flex;
-	flex-direction:column;
-	height:100%;
-	width:25em;
+	flex-direction:row;
 	justify-content:stretch;
-	overflow:auto;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	z-index:250;
 }
 
 .button {
+	position:relative;
 	display:flex;
 	text-align:center;
+	flex-grow:1;
 	padding:1em;
 	cursor:pointer;
 	font-weight:bold;
-	height:100%;
 	justify-content:center;
 	align-items:center;
 	font-size:1.2em;
-	max-height:6em;
 	color:white;
 	text-decoration:none;
 	text-shadow: 1px 1px 2px #292624;
@@ -160,10 +169,24 @@ h3 {
 }
 
 .block {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
     padding:2em;
 	padding-top:4em;
 	min-height:40vh;
 	box-sizing:border-box;
+}
+
+.project {
+	display:inline-block;
+	vertical-align:top;
+	background: #585e62;
+    padding: 1em;
+	margin:1em;
+	width:500px;
+	box-sizing:border-box;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .eventsorganised {
@@ -200,6 +223,10 @@ h3 {
 
 .contact {
 	background:#a93c3c;
+}
+
+.disabled {
+	background:#828689;
 }
 
 .block {

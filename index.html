@@ -5,66 +5,68 @@
         <link rel="stylesheet" href="index.css">
 
     </head>
-    <body>
-		<div class="menu">
-			<a href="#education" class="education button">Education</a>
-			<a href="#freelance" class="freelance button">Freelance projects</a>
-			<a data-scroll href="#work" class="work button">Employee experience</a>
-			<a href="#opensource" class="opensource button">Open source projects and libraries</a>
-			<a href="#eventsorganised" class="eventsorganised button">Organized events</a>
-			<a href="#events" class="events button">Trainings, Conferences and Hackatons</a>
-			<a href="#hobbies" class="hobbies button">Hobbies and interests</a>
-			<a href="#technologies" class="technologies button">Technologies and skills</a>
-			<a href="#contact" class="contact button">Contact</a>
-		</div>
-        
+    <body>        
 		<div class="realcontent">
 			<div class="header">
 				Filip Smets
 				
-				<div class="bio">&lt;Maker, Programmer, Educator&gt;</div>
+				<div class="bio">Programmer, Maker, Educator</div>
 			</div>
 			<div class="filters">
 			
+				<div class="basicFilters">
+					Sort by &nbsp; &nbsp;
+					<div class="filterSort">
+						Starred
+					</div>
+					<div class="filterSort selected">
+						Date
+					</div>
+					<div class="filterSort">
+						Size
+					</div>
+					
+					<input type="text" class="filterBox" placeholder="Search by keywords">
+				</div>
 				
-				<label for="workshops_filter_checkbox" class="filterLabel selected">
-					<input type="checkbox" id="workshops_filter_checkbox" name="workshops" value="workshops" checked>
-					&nbsp;Workshops
-				</label>
-				
-				<label for="small_projects_filter_checkbox" class="filterLabel">
-					<input type="checkbox" id="small_projects_filter_checkbox" name="small_projects" value="small_projects">
-					&nbsp;Small projects
-				</label>
-				
-				<label for="big_projects_filter_checkbox" class="filterLabel">
-					<input type="checkbox" id="big_projects_filter_checkbox" name="big_projects" value="big_projects">				
-					&nbsp;Big projects
-				</label>
-				
-				<label for="events_filter_checkbox" class="filterLabel">
-					<input type="checkbox" id="events_filter_checkbox" name="events" value="events">
-					&nbsp;Events
-				</label>
-				
-				<input type="text" class="filterBox" placeholder="Search by keywords">
-				
+				<div class="menu topicFilters">
+					<a class="education button">Education</a>
+					<a class="freelance button">Freelance<br/>workshops</a>
+					<a class="work button">Employment<br/>Freelance projects</a>
+					<a class="opensource button">Open source</a>
+					<a class="eventsorganised button">Organizer</a>
+					<a class="events button">Trainings, Conferences,<br/>Hackatons, Competitions</a>
+					<a class="hobbies button">Hobbies,<br/>Interests</a>
+					<a class="technologies button">Technologies<br/>Skills</a>
+				</div>
 			</div>
-			<div id="education" class="education block">
-				<h2>Education</h2>
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Sint-Gummarus College - Latin/Modern Sciences (2008 - 2012)</h3>
+			
+			
+			
+			<div id="projects" class="block">
+				<h3 class="project education">
+					Sint-Gummarus&nbsp;College<br/>
+					Latin/Modern&nbsp;Sciences<br/>
+					2008 - 2012
+				</h3>
+				
 
-				<div class="project">
-					<h4>Ronde 2 Vlaamse Wiskunde Olympiade (2011 en 2012)</h4>
+				<div class="project events">
+					<h4>Ronde 2 Vlaamse Wiskunde Olympiade (2011&nbsp;en&nbsp;2012)</h4>
 					<p class="jump">
 						In 2011 and 2012 I participated at the Flemish Mathematics Olympiade. A competition where you needed to answer questions about Math. I scored well enough to continue to the second round.<br/><br/>
 						<span class="tech">Math, Logic</span>
 					</p>
 				</div>
 
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;Githo nijlen - Industrial Science (2012 - 2014)</h3>
-				<div class="project">
-					<h4>Neural Cars - Graduation project/paper (October 2013 - March 2015)</h4>
+				<h3 class="project education">
+					Githo nijlen<br/>
+					Industrial Science<br/>
+					(2012 - 2014)
+				</h3>
+				
+				<div class="project opensource">
+					<h4>Neural&nbsp;Cars - Graduation&nbsp;project/paper (October&nbsp;2013&nbsp;-&nbsp;March&nbsp;2015)</h4>
 					<p class="jump">
 						This project started out of pure interest into Neural Networks. The goal of the project was for agents to autonomously learn how to drive on the road.<br/>
 						Afterwards I wrote a paper for it as my graduating project for highschool.<br/><br/>
@@ -73,20 +75,22 @@
 					</p>
 				</div>
 
-				<div class="project">
-					<h4>Finale Vlaamse Technologie Olympiade (2015)</h4>
+				<div class="project events">
+					<h4>Finale Vlaamse Technologie Olympiade (2013)</h4>
 					<p class="jump">
-						In 2015 I participated at the Flemish Technology Olympiade. A competition where you needed to answer questions about Math, Electricity, Mechanics and Computer science. I scored well enough to continue to the finals in Brussels.<br/><br/>
-						<a target="_blank" href="https://www.technologieolympiade.be/vso/index.php?request=winnaars2015">Lijst met finalisten</a><br/><br/>
+						In 2013 I participated at the Flemish Technology Olympiade. A competition where you needed to answer questions about Math, Electricity, Mechanics and Computer science. I scored well enough to continue to the finals in Brussels.<br/><br/>
+						<a target="_blank" href="https://www.technologieolympiade.be/vso/index.php?request=winnaars2013">Lijst met finalisten</a><br/><br/>
 						<span class="tech">Math, Logic, Electricity, Mechanics, Computer science</span>
 					</p>
 				</div>
 				
-				<br/>
-				
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp;University of Antwerp - Computer science (2014 - 2018)</h3>
+				<h3 class="project education">
+					University of Antwerp<br/>
+					Computer science<br/>
+					(2014 - 2018)
+				</h3>
 
-				<div class="project">
+				<div class="project opensource">
 					<h4>DiskGame - Solo excercise (2014)</h4>
 					<p class="jump">
 						Disk game (three on a line) excercise that we had to make using pythong for the introduction to programming course. Written in Python.<br/><br/>
@@ -96,7 +100,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project opensource">
 					<h4>Chessgame - Solo excercise (2014)</h4>
 					<p class="jump">
 						Chesslike game we had to make for the introduction to programming course. Written in Python.<br/><br/>
@@ -106,7 +110,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project opensource">
 					<h4>Towers of Hanoi - Solo excercise (2014)</h4>
 					<p class="jump">
 						Towers of Hanoi simulation, made for the introduction to programming course. Written in python.<br/><br/>
@@ -116,7 +120,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project opensource">
 					<h4>BattleShip Console Game - Solo excercise (2014)</h4>
 					<p class="jump">
 						Console game for the introduction to programming course. It also included a super simple AI that randomly fired until it locked onto a ship.<br/><br/>
@@ -126,7 +130,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project opensource">
 					<h4>Cinema system - Group project (2015)</h4>
 					<p class="jump">
 						We had to use python to create a cinema system according to a specification we were given.<br/><br/>
@@ -137,7 +141,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project opensource">
 					<h4>DFA to RE and RE to NFA translator - Group project (2015)</h4>
 					<p class="jump">
 						In this project we made a program that translates a deterministic finite automaton into a Regex (Regular expression). It is also able to convert a regular expression into a Non deterministic finite automaton.<br/><br/>
@@ -147,7 +151,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project opensource">
 					<h4>Computer graphics in 3D - Solo exercise (2015)</h4>
 					<p class="jump">
 						In this assignement we had to create our own 3D engine in c++ using matrix and vector manipulation.<br/><br/>
@@ -157,7 +161,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project opensource">
 					<h4>Smarthome - Group project (2016)</h4>
 					<p class="jump">
 						Using React in the front-end and Django in the back we had to make a system that could poll IOT devices and present the user with a clean interface to access the data.<br/><br/>
@@ -167,7 +171,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project opensource">
 					<h4>SiegeAlienEdition - Solo excercise (2016)</h4>
 					<p class="jump">
 						We had to remake an old game using an MVC architecture in c++. It also needed to parse XML config files.<br/><br/>
@@ -176,16 +180,13 @@
 						<span class="tech">MAKE, CMAKE, MVC, C++, XML, Error handling, OOP, Observer pattern</span>
 					</p>
 				</div>
-
-			</div>
-			<div id="freelance" class="freelance block">
-				<h2>Freelance projects</h2>
 				
-				<h3>&nbsp;&nbsp;&nbsp;&nbsp; iDrops (Since 2017)</h3>
+				<h3 class="project freelance">
+					iDrops<br/>(Since 2017)
+					<a href="http://idrops.org" target="_blank">Their website</a>
+				</h3>
 				
-				Meer info over iDrops kan je op <a href="http://idrops.org">hun website</a> vinden.
-				
-				<div class="project">
+				<div class="project freelance">
 					<h4>Nowasteland - AppInventor workshops (March, April 2017)</h4>
 					<p class="jump">
 						In these workshops, youngsters were helped with the development of smartphone apps to minimize the foodwaste in our society. The four groups were selected by a Jury and given individual guidance to create their vision.<br/><br/>
@@ -193,7 +194,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project freelance">
 					<h4>Studio Digital - Workshops (September 2017)</h4>
 					<p class="jump">
 						This series of workshops was focused on at risk youth. We gave an initiation into the digital world using low barrier techniques such as Scratch.<br/><br/>
@@ -201,7 +202,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project freelance">
 					<h4>Studio Digital - Boshackaton (Augustus 2019)</h4>
 					<p class="jump">
 						A hackaton of 24 hours where participants had to create a project to transform a normal forest into a smart one. The projects used digital making technologies like 3D-printing, lasercutting, Arduino, electronics, CNC-machines, ...<br/><br/>
@@ -209,7 +210,7 @@
 					</p>
 				</div>
 				
-				<div class="project">
+				<div class="project work">
 					<h4>Kiyo online platform (Juni-Sept 2019)</h4>
 					<p class="jump">
 						Here I developed an online platform that allows Kiyo (Youth right NGO) to empower children to defend their rights by having them create projects. They improve their environment by following a roadmap on the platform, guiding them towards a successful goal. Meanwhile they are encouraged to communicate with their counterparts on other continents. <br/><br/>
@@ -221,7 +222,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project freelance">
 					<h4>!fLAB, Lille (France) (Juli 2017)</h4>
 					<p class="jump">
 						In this two day workshop I had to cocreate an interactive story about the closure of a nuclear power plant in North Wales.
@@ -230,7 +231,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project work">
 					<h4>Atech (Since 2018)</h4>
 					<p class="jump">
 						For this company I designed a new website using a CMS system. I also make sure they can send and receive their emails and maintain their computers on an ongoing basis.
@@ -239,7 +240,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project freelance">
 					<h4>Codefever (Winter/Spring 2018)</h4>
 					<p class="jump">
 						Codefever provides children with ten lessons each season, one day a week. I was responsible for giving them in their Antwerp location.
@@ -247,21 +248,17 @@
 						<span class="tech">Workshop, Scratch</span>
 					</p>
 				</div>
-
-				<div class="project">
-					<h4>Codefever (Since 2018)</h4>
+				
+				<div class="project freelance">
+					<h4>Codefever (September 2019)</h4>
 					<p class="jump">
-						For this company I designed a new website using a CMS system. I also make sure they can send and receive their emails and maintain their computers.
+						This season I gave Scratch, microBit and Javascript for the web.
 						<br/><br/>
-						<span class="tech">Wordpress, ICT, Backup strategies, Microsoft Server, Windows Domains, Hosting</span>
+						<span class="tech">Workshop, Scratch, Javascript</span>
 					</p>
-				</div>	
-	
-			</div>
-			<div id="work" class="work block">
-				<h2>Employee experience</h2>
+				</div>
 
-				<div class="project">
+				<div class="project work">
 					<h4>BeSports/Kayzr (July 2016 - September 2016)</h4>
 					<p class="jump">
 						This startup organizes online esports tournaments sponsered by companies like Proximus. During the summer of 2016 I helped develop their online platform.
@@ -270,7 +267,7 @@
 					</p>
 				</div>
 
-				<div class="project">
+				<div class="project work">
 					<h4>Becode (Since Feb 2019)</h4>
 					<p class="jump">
 						Becode provides all kinds of Trainings.
@@ -281,10 +278,7 @@
 					</p>
 				</div>
 				
-			</div>
-			<div id="eventsorganised" class="eventsorganised block">
-				<h2>Tech events I organise</h2>
-				<div class="project">
+				<div class="project eventsorganised">
 					<h4>Coolest Projects (2016, 2017, 2018, 2019)</h4>
 					<p class="jump">
 						I started this Event as a way to give children a goal to work towards during the monthly Coderdojo sessions. Together with a team of volunteers we organised a Science fair where children showed off their projects and visitors could come and spectate.
@@ -292,7 +286,7 @@
 						<span class="tech">Project management, Team management, Advertisement, Budget management, Subsidies, Event organisation</span>
 					</p>
 				</div>
-				<div class="project">
+				<div class="project eventsorganised">
 					<h4>Coderdojo Lier (2014-2019)</h4>
 					<p class="jump">
 						In Lier we organise a Coderdojo. These are free workshops children can participate in to work on technology related projects. They happen monthly, first at the local library and nowadays at my makerspace.
@@ -300,12 +294,12 @@
 						<span class="tech">Scratch, HTML/CSS3/Javascript, Python, Unity, Lasercutting, 3D printing</span>
 					</p>
 				</div>
-				<div class="project">
+				<div class="project eventsorganised">
 					<h4>Coderdojo Zandhoven (2017-2019)</h4>
 					<p class="jump">
 						I wanted to start an extra location and decided to work together with a school in Zandhoven that had recently started their own FabLab.
 						<br/><br/>
-						<span class="tech">Scratch, HTML/CSS3/Javascript, Python, Unity, Lasercutting, 3D printing</span>
+						<span class="tech">Admissions, Event planning, Event coordination, Finding sponsorship, Scratch, HTML/CSS3/Javascript, Python, Unity, Lasercutting, 3D printing</span>
 					</p>
 				</div>
 			</div>
@@ -447,5 +441,28 @@
 					C (Arduino)<br/>
 			</div>
 		</div>
+		
+		<script>
+			var firstTime = true;
+
+			var links = Array.prototype.slice.call(document.getElementsByClassName("button"));
+			
+			function firstClick (target) {
+				links.forEach(function (link) { link.classList.add("disabled"); });
+				target.classList.remove("disabled");
+			}
+
+			links.forEach(function (link) {
+				
+				link.addEventListener("click", function () {
+					if (firstTime) {
+						firstTime = false;
+						firstClick(this);
+					} else {
+						this.classList.toggle("disabled");
+					}
+				});
+			});
+		</script>
     </body>
 </html>
