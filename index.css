@@ -75,20 +75,16 @@ a:hover {
 	margin-left:3em;
 	margin-right:1em;
 	
-	width:25em;
+	width:18em;
 	
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	
-	transition-duration:0.3s;
+	transition-duration:0.2s;
 	transition-timing-function: ease-in-out;
 }
 
 .filterBox:focus {
 	width:25em;
-}
-
-.filterBox[value=""] {
-	width:13em;
 }
 
 .selected {
@@ -258,11 +254,7 @@ h2, h3 {
 }
 
 .block {
-	background:#313131;
-}
-
-.block:nth-child(even) {
-	background:#393939;
+	background:#414141;
 }
 
 
