@@ -16,6 +16,14 @@ a:hover {
 	color:#ffffffd1;
 }
 
+.passionlabel {
+	font-size:0.8em;
+}
+
+.courselist {
+	margin:auto;
+}
+
 .bio {
 	font-size:0.5em;
 	color:lightgray;
@@ -23,6 +31,8 @@ a:hover {
 	font-weight:normal;
 	text-shadow:none;
 	text-align:center;
+	margin-top:1em;
+	max-width:20em;
 }
 
 .filters {
