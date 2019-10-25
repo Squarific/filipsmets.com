@@ -1,10 +1,19 @@
-Things I stand for:
-	Future
-	Education?
-	Diversity
-	SCIENCE
+Logisim als apart project
+De projecten van gitlab op github
+
+Goals?
+	- To get hired
+		=> What job do you want?
+			> Well paid
+			> Interesting
+			> Nice and plentiful coworkers
+			> Good future prospects
+			> With some kind of impact (social, sociatel, economical?, sciency?)
+	- To have a website where people can see who I am
+	- Personal branding
 
 Check the drive too
+Is coocking an interest of yours?
 
 Marvel Fan
 Other nice things?
@@ -13,7 +22,7 @@ Holidays to Oostenrijk?
 
 Skills van projects ook als aparte skill
 
-Images
+Images, foto's van uzelf?
 
 Github projects (clean up the readmes)
 	- Traingame
@@ -24,47 +33,6 @@ One2xs? Imonline? Kindertent? habbo? tribalwars?
 
 Data structures: https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f
 
-
-Year 1
-===================
-Calculus
-Computer Graphics
-Computersystems and -architecture
-Discrete Mathematics
-Data abstraction and structures
-Introduction to programming
-Project Software Engineering
-Languages and Machines
- 
-Year 2
-====================
-Algorithms and Complexity
-Computer networks
-Elementary Statistics
-Physics
-Advanced Programming
-Introduction to databases
-Linear algebra
-Machines and Computability
-Numerical Analysis
-Programming project databases
-Operating Systems
- 
-Year 3
-====================
-
-Artificial intelligence
-Compilers*
-Data structures and graph algorithms
-Distributed systems
-World View and Science
-Software engineering
-Telecommunication systems*
-Scientific programming*
-
-*Skipped
-
-	
 Focus:
 	I do TECH
 	I do TEACHING
@@ -77,23 +45,25 @@ Teamwork makes the dream work
 
 EXTRA:
 	Chronological overview
-	PRINT THIS PORTFOLIO
-	SHOW NO DETAILS
-	SEARCH BY TECHNOLOGY, TYPE, ...
 
-BTW Nummer
-Rekeningnummer
-Post address
-Social medias
+	PRINT BUTTON + OPTIMIZED CSS
+	DOWNLOAD THIS PORTFOLIO AS PDF
+	DOWNLOAD A SHORT CV
+	DOWNLOAD A LONG CV
+
+	HIDE DESCRIPTIONS
+	HIDE TECHNOLOGIES/SKILLS
+
+	SEARCH BY TECHNOLOGY, TYPE, ...
+	BLACK AND WHITE MODE
+	COMPACT MODE? https://pierre-antoine.delnatte.be/
+
+	BTW Nummer
+	Rekeningnummer
+	Post address
+	Social medias
 
 
 Hebt gij nog certificaten?
 	-> Muziekschool?
-	
-Inspiration: https://pierre-antoine.delnatte.be/
-
-Compact mode
-Black and white mode
-
-Fotos?
-	
+		
