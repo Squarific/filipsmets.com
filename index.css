@@ -17,12 +17,18 @@ a:hover {
 	color:#ffffffd1;
 }
 
+.jump {
+	flex-grow:1;
+}
+
 .passionlabel {
 	font-size:0.8em;
 }
 
 .courselist {
 	margin:auto;
+	margin-top:2em;
+	margin-bottom:2em;
 }
 
 .bio {
@@ -167,9 +173,11 @@ h2, h3 {
 
 .tech {
 	font-weight:bold;
-	background: #b6b6b63d;
+	background: #b6b6b66d;
 	padding: 1em;
     display: block;
+	margin: 0.3em;
+	border-radius:2px;
 }
 
 .menu {
@@ -250,6 +258,11 @@ h2, h3 {
     background-size: cover;
 }
 
+.opensource h4 {
+	background:#35457dcc;
+	border-radius:3px;
+}
+
 .freelance {
     background:#a93ca1;
 }
@@ -284,6 +297,57 @@ h2, h3 {
 	background:#414141;
 }
 
+.buttons {
+	display:flex;
+	margin-bottom:0.5em;
+}
+
+.project .button {
+	border-radius:2px;
+	margin:0.3em;
+	background:#cccccc8e;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+.project .button:hover {
+	background:#ccccccbe;
+}
+
+.tazios {
+	background-image: linear-gradient(#3c54a9aa, #3c54a9aa), url('image/projects/tazios.png');
+}
+
+.res {
+	background-image: linear-gradient(#3c54a9bb, #3c54a9bb), url('image/projects/res.png');
+	background-position: center;
+	background-size:initial;
+	background-repeat:no-repeat;
+}
+
+.proceduralmap {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/proceduralmap.png');
+}
+
+.cubeengine {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/cubeengine.png');
+		background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.joystick {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/joystick.png');
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+.arduino {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/arduino.jpg');
+}
+
+.proceduralimage {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/proceduralimage.png');
+}
 
 @media (prefers-reduced-motion: reduce) {
   html {
