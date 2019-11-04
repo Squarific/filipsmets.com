@@ -38,7 +38,6 @@ a:hover {
 	font-weight:normal;
 	text-shadow:none;
 	text-align:center;
-	margin-top:1em;
 	max-width:20em;
 }
 
@@ -65,6 +64,7 @@ a:hover {
 
 .topicFilters {
 	width:100%;
+	flex-wrap:wrap;
 }
 
 .filterSort {
@@ -108,19 +108,22 @@ a:hover {
 	background:#65737d;
 }
 
+.name {
+	font-family:serif;
+}
+
 .header {
 	display:flex;
-	flex-direction:column;
     font-size:2em;
     background:#31383c;
     color:#f7f7f7;
-	justify-content:center;
+	justify-content:space-between;
 	align-items:center;
 	font-weight:bold;
 	text-shadow: 2px 2px 3px #292624;
 	z-index:1;
 	box-shadow:0 0 5px #3c3431;
-	padding: 2em;
+	padding: 1em;
     box-sizing: border-box;
 	background: linear-gradient(45deg, rgba(40,45,47,1) 0%, rgba(71,77,82,1) 100%);
 }
@@ -231,6 +234,9 @@ h2, h3 {
 
 .eventsorganised {
 	background:#3c95a9;
+	background-image: linear-gradient(#3c95a9f9, #3c95a9f9), url(image/buttons/organized.jpg);
+	background-position: center center;
+    background-size: cover;
 }
 
 .events {
@@ -265,6 +271,9 @@ h2, h3 {
 
 .freelance {
     background:#a93ca1;
+	background-image: linear-gradient(#a93ca1f2, #a93ca1f2), url(image/buttons/freelance.jpg);
+	background-position: center center;
+    background-size: cover;
 }
 
 .hobbies {
@@ -283,6 +292,9 @@ h2, h3 {
 
 .technologies {
     background:#a9693c;
+	background-image: linear-gradient(#a9693cf7, #a9693cf7), url(image/buttons/technologies.jpeg);
+	background-position: center center;
+    background-size: cover;
 }
 
 .contact {
@@ -308,6 +320,7 @@ h2, h3 {
 	background:#cccccc8e;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.12), 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .project .button:hover {
@@ -349,6 +362,30 @@ h2, h3 {
 	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/proceduralimage.png');
 }
 
+.ircbot {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/ircbot.png');
+}
+
+.simplelogic {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/simplelogic.png');
+}
+
+.calculator {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/calculator.jpeg');
+}
+
+.drone {
+	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/drone.jpg');
+}
+
+.youtube {
+	flex-wrap:wrap;
+}
+
+.youtube .button {
+	
+}
+
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
@@ -357,4 +394,31 @@ h2, h3 {
   .filterBox {
 	  transition-duration:0;
   }
+}
+
+@media (max-width: 750px) {
+	.filters {
+		position:initial;
+	}
+	
+	.basicfilters {
+		height:initial;
+		display:flex;
+		flex-wrap:wrap;
+		justify-content:center;
+		align-items:center;
+	}
+	
+	.filterSort {
+		padding:1em;
+	}
+	
+	.block {
+		padding:0;
+	}
+	
+	input.filterbox {
+		width:100%!important;
+		margin:1em;
+	}
 }
