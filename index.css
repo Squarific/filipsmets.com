@@ -224,12 +224,16 @@ h2, h3 {
 	flex-direction:column;
 	vertical-align:top;
 	background: #585e62;
-    padding: 1em;
-	margin:1em;
-	width:500px;
+    padding: 20px;
+	margin:20px;
+	width:350px;
 	border-radius:3px;
 	box-sizing:border-box;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.double {
+	width:740px;
 }
 
 .eventsorganised {
@@ -312,6 +316,14 @@ h2, h3 {
 .buttons {
 	display:flex;
 	margin-bottom:0.5em;
+}
+
+.hide {
+	display:none !important;
+}
+
+.project .buttons {
+	flex-wrap:wrap;
 }
 
 .project .button {

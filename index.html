@@ -66,7 +66,7 @@
 				2014
 			</h3>
 			
-			<div class="project opensource joystick">
+			<div class="project opensource">
 				<h4>Traingame (2013)</h4>
 				<p class="jump">
 					One of the earliest games I worked on.
@@ -241,7 +241,7 @@
 				<span class="tech">Neural Networks</span>
 			</div>
 			
-			<div class="project opensource simplelogic">
+			<div class="project opensource">
 				<h4>Democratic programming (2014)</h4>
 				<p class="jump">
 					A experiment that allows multiple people to vote on the direction of the code. 
@@ -275,7 +275,7 @@
 				<span class="tech">Logic Gates, PHP, JavaScript</span>
 			</div>
 			
-			<div class="project opensource simplelogic">
+			<div class="project opensource">
 				<h4>NeuralNet (2015)</h4>
 				<p class="jump">
 					Javascript module for neural networks that you want to train using an evolutionary approach.
@@ -286,7 +286,7 @@
 				<span class="tech">Neural Networks</span>
 			</div>
 			
-			<div class="project opensource simplelogic">
+			<div class="project opensource">
 				<h4>Scratch IO multiplayer (2015)</h4>
 				<p class="jump">
 					Scratch IO module that added networking blocks.
@@ -331,7 +331,7 @@
 				<span class="tech">Pid controllers, Drones, Linux</span>
 			</div>
 			
-			<div class="project opensource drone">
+			<div class="project opensource">
 				<h4>Sonar Car Simulator (2019)</h4>
 				<p class="jump">
 					Small simulation that has a car with three sonar sensors on it. 
@@ -343,7 +343,7 @@
 				<span class="tech">Javascript</span>
 			</div>
 			
-			<div class="project opensource drone">
+			<div class="project opensource">
 				<h4>Super Simple Blockchain (2019)</h4>
 				<p class="jump">
 					Made a super simple blockchain in javascript in less than 100 lines. 
@@ -664,7 +664,7 @@
 				<span class="tech">3D-printing, lasercutting, Arduino, electronics, CNC-machines, C</span>
 			</div>
 			
-			<div class="project work">
+			<div class="project work double">
 				<h4>Kiyo online platform (Juni-Sept 2019)</h4>
 				<p class="jump">
 					Here I developed an online platform that allows Kiyo (Youth right NGO) to empower children to defend their rights by having them create projects. They improve their environment by following a roadmap on the platform, guiding them towards a successful goal. Meanwhile they are encouraged to communicate with their counterparts on other continents. <br/><br/>
@@ -1240,8 +1240,27 @@
 						else
 							this.classList.toggle("disabled");
 					}
+					
+					update();
 				});
 			});
+			
+			function update () {
+				var projects = document.getElementsByClassName("project");
+				
+				for (var k = 0; k < projects.length; k++) {
+					for (var i = 0; i < links.length; i++) {
+					
+						if (projects[k].classList.contains(links[i].classList[0])) {
+							if (links[i].classList.contains("disabled")) {
+								projects[k].classList.add("hide");
+							} else {
+								projects[k].classList.remove("hide");
+							}
+						}
+					}
+				}	
+			}
 		</script>
     </body>
 </html>

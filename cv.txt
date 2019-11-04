@@ -77,4 +77,4 @@ EXTRA:
 	
 	Rekeningnummer
 	Post address
-	Social medias		
+	Social medias
