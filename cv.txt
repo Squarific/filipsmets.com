@@ -1,18 +1,22 @@
 Meta tags
-Reddit posts
 Add projects that are in the old screens folder
+Labschool
+Monkey lights
+Icoontjes bij de skills
+Logisim als apart project
+Blackjack JS -> One2xs miss nog screenshots?
+
+
+Comes in Dutch, English and a tiny bit of French
+
 
 
 Cool websites:
 	https://ourworldindata.org
-	
+	https://agi.io/2015/11/29/how-to-build-a-general-intelligence-reverse-engineering/
 
+Reddit posts
 
-Monkey lights
-
-Icoontjes bij de skills
-Logisim als apart project
-De projecten van gitlab op github
 
 Goals?
 	- To get hired
@@ -26,12 +30,10 @@ Goals?
 	- Personal branding
 
 Check the drive too
-Marvel Fan
-Other nice things?
 PC's owned?
-Holidays to Oostenrijk?
+Holidays to Oostenrijk, spanje, ...?
 
-Bouldering, Juggling, Cooking
+Watching movies? (Marvel?)
 
 Skills van projects ook als aparte skill
 
@@ -39,10 +41,11 @@ Images, foto's van uzelf?
 
 Github projects (clean up the readmes)
 	- Traingame
-	- http://filipsmets.com/car/
 
 Minecraft servers enzow
+Funnygames FAQ
 One2xs? Imonline? Kindertent? habbo? tribalwars?
+Habbo fan sites?
 
 Data structures: https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f
 

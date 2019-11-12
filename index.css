@@ -7,6 +7,12 @@ html, body {
 	word-break:break-word;
 	scroll-behavior: smooth;
 	flex-direction:column;
+	background:#414141;
+}
+
+body {
+	overflow-y:scroll;
+	padding-bottom:6em;
 }
 
 a {
@@ -60,6 +66,7 @@ a:hover {
 
 .basicFilters {
 	height:50px;
+	display:none !important;
 }
 
 .topicFilters {
@@ -147,8 +154,8 @@ h2, h3 {
 .project h4 {
 	text-align:center;
 	background:#0000002b;
-	margin:0.3em;
-	padding:1em;
+	margin:0;
+	padding:0.7em;
 }
 
 .project a {
@@ -159,7 +166,6 @@ h2, h3 {
 	display:inline-block;
 	padding:0.5em;
 	background:#ffffff26;
-	cursor:pointer;
 	flex-grow: 1;
     margin:0.4em;
     text-align: center;
@@ -176,11 +182,11 @@ h2, h3 {
 
 .tech {
 	font-weight:bold;
-	background: #b6b6b66d;
+	background: #2224;
 	padding: 1em;
     display: block;
-	margin: 0.3em;
-	border-radius:2px;
+	border-bottom-left-radius:2px;
+	border-bottom-right-radius:2px;
 }
 
 .menu {
@@ -224,16 +230,16 @@ h2, h3 {
 	flex-direction:column;
 	vertical-align:top;
 	background: #585e62;
-    padding: 20px;
-	margin:20px;
-	width:350px;
+    padding: 15px;
+	margin:15px;
+	width:400px;
 	border-radius:3px;
 	box-sizing:border-box;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .double {
-	width:740px;
+	width:830px;
 }
 
 .eventsorganised {
@@ -266,11 +272,6 @@ h2, h3 {
 	background-image: linear-gradient(#3c54a9fb, #3c54a9fc), url(image/buttons/opensource.jpg);
 	background-position: center center;
     background-size: cover;
-}
-
-.opensource h4 {
-	background:#35457dcc;
-	border-radius:3px;
 }
 
 .freelance {
@@ -315,6 +316,8 @@ h2, h3 {
 
 .buttons {
 	display:flex;
+	margin-left:0.5em;
+	margin-right:0.5em;
 	margin-bottom:0.5em;
 }
 
@@ -379,7 +382,7 @@ h2, h3 {
 }
 
 .simplelogic {
-	background-image: linear-gradient(#3c54a9dd, #3c54a9dd), url('image/projects/simplelogic.png');
+	background-image: linear-gradient(#3c54a9ee, #3c54a9ee), url('image/projects/simplelogic.png');
 }
 
 .calculator {
@@ -396,6 +399,96 @@ h2, h3 {
 
 .youtube .button {
 	
+}
+
+.project {
+	position:relative;
+	padding:0;
+	padding-top:4em;
+}
+
+.jump {
+	padding:1em;
+	margin:0;
+}
+
+.project .note {
+	margin:2em;
+	margin-top:0;
+}
+
+.project::before {	
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	padding:0.8em;
+	text-align:center;
+	font-weight:bold;
+	font-size:1.3em;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+}
+
+.project.opensource::before {
+	content:"Open source project";
+}
+
+.project.work::before {
+	content:"Employment / Freelance project";
+}
+
+.project.freelance::before {
+	content:"Freelance workshop";
+}
+
+.project.eventsorganised::before {
+	content:"Self organised event";
+}
+
+.project.conference::before {
+	content:"Conference";
+}
+
+.project.hackaton::before {
+	content:"Hackaton";
+}
+
+.project.competition::before {
+	content:"Competition";
+}
+
+.project.education::before {
+	content:"Education";
+}
+
+.project.training::before {
+	content:"Training";
+}
+
+.project.volunteering::before {
+	content:"Volunteering";
+}
+
+.project.techfair::before {
+	content:"Tech fair";
+}
+
+.project.universityproject::before {
+	content:"University project";
+}
+
+.project.hobbies, .project.technologies {
+	padding:0;
+}
+
+.project.hobbies h4, .project.technologies h4 {
+	margin-top:1em;
+	margin-bottom:1em;
+}
+
+h3.project::before {
+	content:"" !important;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -427,6 +520,7 @@ h2, h3 {
 	
 	.block {
 		padding:0;
+		padding-top:2em;
 	}
 	
 	input.filterbox {
@@ -434,3 +528,26 @@ h2, h3 {
 		margin:1em;
 	}
 }
+
+@media print {
+	* {
+		box-shadow:none !important;
+		text-shadow:none !important;
+		color-adjust: exact !important;
+		-webkit-print-color-adjust: exact !important; print-color-adjust: exact !important;
+	}
+	
+	a {
+		display:none !important;
+	}
+	
+	.menu .button {
+		display:flex !important;
+	}
+	
+	.block {
+		padding:0;
+		padding-top:2em;
+	}
+}
+
