@@ -1,19 +1,20 @@
 Meta tags
+
 Add projects that are in the old screens folder
-Labschool
 Monkey lights
-Icoontjes bij de skills
-Logisim als apart project
-Blackjack JS -> One2xs miss nog screenshots?
-
-
 Comes in Dutch, English and a tiny bit of French
 
+
+Icoontjes bij de skills
+Blackjack JS -> One2xs miss nog screenshots?
+Logisim als apart project
 
 
 Cool websites:
 	https://ourworldindata.org
 	https://agi.io/2015/11/29/how-to-build-a-general-intelligence-reverse-engineering/
+	
+	https://openai.com/blog/learning-day/
 
 Reddit posts
 
@@ -46,6 +47,8 @@ Minecraft servers enzow
 Funnygames FAQ
 One2xs? Imonline? Kindertent? habbo? tribalwars?
 Habbo fan sites?
+
+League of legends worlds Brussels
 
 Data structures: https://medium.com/coderbyte/how-to-get-good-at-algorithms-data-structures-d33d5163353f
 
